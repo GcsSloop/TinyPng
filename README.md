@@ -7,6 +7,40 @@
 
 图片压缩有很多方法，这里推荐的是[TinyPNG](https://tinypng.com/)。TinyPNG 是一个在线压缩工具，主要优点是在视觉上没有明显变化的情况下达到很高的压缩比(如我手机截屏图片大小一般为110k，压缩后能达到30k左右)。
 
+TinyPNG官网: https://tinypng.com/
+
+>
+TinyPNG支持一次最多上传20张图片，图片最大5M。
+
+如果处理的图片比较少则使用在线压缩即可，非常方便，但如果图片处理量比较大，使用在线压缩一次一次的上传下载则显得有些麻烦了，因此用Python写了一个简单的脚本，用于批量压缩图片。
+
+## 使用方法
+
+### 一.配置环境
+
+**Python:** 保证电脑中存在 Python 环境，(如果是Mac，则自带的有Python环境)。
+
+**Tinify:** 导入Tinify
+``` python
+  pip install --upgrade tinify
+```
+
+### 二.申请 API key
+
+到此处申请 API key: https://tinypng.com/developers
+
+>
+一个 key 每个月可以免费压缩500张图片，可以申请多个 key。
+
+### 三.配置脚本并运行
+
+**[]()**
+
+你可以将该脚本
+
+
+
+
 
 
 
