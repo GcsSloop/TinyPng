@@ -6,7 +6,7 @@ import sys
 import os.path
 import tinify
 
-tinify.key = "zidrhYcSiBTy3oUEQLCdfjW6hQWmVEtW"	 # APIKAY
+tinify.key = "申请的API key"	 # APIKAY
 
 img_w = 300
 img_h = 533
