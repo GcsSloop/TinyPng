@@ -53,6 +53,12 @@ tinify.key = "你申请到的API key"
 
 如果你觉得每次都需要复制该文件到需要压缩到目录太麻烦，可以将该脚本存储到一个文件夹中，之后将该文件夹添加进环境变量，就能在任意位置执行该脚本了。
 
+**运行示例及大小对比(有图有真相):**
+
+![](http://ww2.sinaimg.cn/large/005Xtdi2gw1f4klenbcinj30rs0hcq55.jpg)
+
+![](http://ww2.sinaimg.cn/large/005Xtdi2gw1f4klhrov4cj30ii0ffn0m.jpg)
+
 ### 四.辅助优化
 
 这一步不是必要的步骤，只是帮助你优化一些内容:
