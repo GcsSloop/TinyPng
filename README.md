@@ -53,6 +53,25 @@ tinify.key = "你申请到的API key"
 
 如果你觉得每次都需要复制该文件到需要压缩到目录太麻烦，可以将该脚本存储到一个文件夹中，之后将该文件夹添加进环境变量，就能在任意位置执行该脚本了。
 
+### 四.辅助优化
+
+这一步不是必要的步骤，只是帮助你优化一些内容:
+
+**环境变量:**
+[Mac 配置环境变量](https://github.com/GcsSloop/MacDeveloper/blob/master/Skill/Path.md)
+
+windows环境变量配置是可视化界面，比较简单，这里就不说明了。
+
+**从当前目录启动**
+
+如果从命令行中进入到某个目录比较麻烦，所以在 Mac 上你可以使用 XtraFinder 插件来给你的右键添加一个从当前目录启动选项，直接在当前目录下启动终端，添加方式在 XtraFinder 到偏好设置里面。
+
+[点击这里查看Finder增强插件到安装方法](https://github.com/GcsSloop/MacDeveloper/blob/master/Tools/XtraFinder.md)
+
+![](http://ww3.sinaimg.cn/large/005Xtdi2gw1f4kl9j34vij30rs0hcabg.jpg)
+
+
+
 
 ## About Me
 
