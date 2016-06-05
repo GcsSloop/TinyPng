@@ -1,6 +1,7 @@
 # TinyPng
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
-图片批量压缩处理脚本(Python)
+
+![](http://ww4.sinaimg.cn/large/005Xtdi2gw1f4kksnoy72j313y07yjuk.jpg)
 
 ## 前言
 我们在写文章或者建网站时，经常需要对图片压缩处理，以便帮助用户节省流量和提升网站加载速度。
