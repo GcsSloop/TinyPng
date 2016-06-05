@@ -49,14 +49,27 @@ TinyPNG支持一次最多上传20张图片，图片最大5M。
 如果你觉得每次都需要复制该文件到需要压缩到目录太麻烦，可以将该脚本存储到一个文件夹中，之后将该文件夹添加进环境变量，就能在任意位置执行该脚本了。
 
 
-
-
-
-
-
-
 ## About Me
 
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
 
 <a href="https://github.com/GcsSloop/README/blob/master/README.md" target="_blank"> <img src="http://ww4.sinaimg.cn/large/005Xtdi2gw1f1qn89ihu3j315o0dwwjc.jpg" width=300 height=100 /> </a>
+
+
+## License
+```
+Copyright (c) 2015 GcsSloop
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
