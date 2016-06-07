@@ -60,7 +60,10 @@ python tinypng.py
 
 ![](http://ww2.sinaimg.cn/large/005Xtdi2jw1f4mdy2e8zjj30rs0hcwir.jpg)
 
-### 四.辅助优化
+### 四.支持参数
+
+
+### 五.辅助优化
 
 这一步不是必要的步骤，只是帮助你优化一些内容:
 
@@ -72,7 +75,7 @@ python tinypng.py
 tinypng.py
 ```
 
-如果使用直接使用文件名无法执行，则说明改文件没有可执行权限，使用如下命令添加可执行权限:
+如果使用直接使用文件名无法执行，则说明文件没有可执行权限，使用如下命令添加可执行权限:
 ```
 chmod +x tinypng.py
 ```
@@ -88,6 +91,10 @@ chmod +x tinypng.py
 
 ![](http://ww3.sinaimg.cn/large/005Xtdi2gw1f4kl9j34vij30rs0hcabg.jpg)
 
+## 更新日志
+
+* v1.0.0 支持压缩当前目录下文件
+* v1.0.1 添加参数支持，支持压缩单个文件，压缩指定目录所有图片文件(不包含子目录)，默认压缩当前目录的所有图片文件(不包括子目录)
 
 ## About Me
 
