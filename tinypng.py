@@ -21,20 +21,20 @@ def compress_core(inputFile, outputFile, img_width):
 
 # 压缩一个文件夹下的图片
 def compress_path(path, width):
-	print "compress_path-------------------------------------"
+	print ("compress_path-------------------------------------")
 	if not os.path.isdir(path):
-		print "这不是一个文件夹，请输入文件夹的正确路径!"
+		print ("这不是一个文件夹，请输入文件夹的正确路径!")
 		return
 	else:
 		fromFilePath = path 			# 源路径
 		toFilePath = path+"/tiny" 		# 输出路径
-		print "fromFilePath=%s" %fromFilePath
-		print "toFilePath=%s" %toFilePath
+		print ("fromFilePath=%s" %fromFilePath)
+		print ("toFilePath=%s" %toFilePath)
 
 		for root, dirs, files in os.walk(fromFilePath):
-			print "root = %s" %root
-			print "dirs = %s" %dirs
-			print "files= %s" %files
+			print ("root = %s" %root)
+			print ("dirs = %s" %dirs)
+			print ("files= %s" %files)
 			for name in files:
 				fileName, fileSuffix = os.path.splitext(name)
 				if fileSuffix == '.png' or fileSuffix == '.jpg' or fileSuffix == '.jpeg':
@@ -49,18 +49,18 @@ def compress_path(path, width):
 
 # 仅压缩指定文件
 def compress_file(inputFile, width):
-	print "compress_file-------------------------------------"
+	print ("compress_file-------------------------------------")
 	if not os.path.isfile(inputFile):
-		print "这不是一个文件，请输入文件的正确路径!"
+		print ("这不是一个文件，请输入文件的正确路径!")
 		return
-	print "file = %s" %inputFile
+	print ("file = %s" %inputFile)
 	dirname  = os.path.dirname(inputFile)
 	basename = os.path.basename(inputFile)
 	fileName, fileSuffix = os.path.splitext(basename)
 	if fileSuffix == '.png' or fileSuffix == '.jpg' or fileSuffix == '.jpeg':
 		compress_core(inputFile, dirname+"/tiny_"+basename, width)
 	else:
-		print "不支持该文件类型!"
+		print ("不支持该文件类型!")
 
 @click.command()
 @click.option('-f', "--file",  type=str,  default=None,  help="单个文件压缩")
@@ -76,7 +76,7 @@ def run(file, dir, width):
 		pass
 	else:
 		compress_path(os.getcwd(), width)		# 压缩当前目录下的文件
-	print "结束!"
+	print ("结束!")
 
 if __name__ == "__main__":
     run()
